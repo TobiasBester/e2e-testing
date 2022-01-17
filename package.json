@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export",
+    "cypress:open": "cypress open"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.27.20",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "e2e-testing",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.0.12",
+    "cypress": "^9.2.1"
+  }
+}
