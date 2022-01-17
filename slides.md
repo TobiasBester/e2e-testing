@@ -16,7 +16,7 @@ title: End-to-End Testing
 
 # End-to-End Testing
 
-EPI-USE Labs | 2022
+EPI-USE Labs | 2022 | e2e-testing.vercel.app
 
 <div class="abs-br m-6 flex gap-2">
   <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub"
@@ -73,7 +73,7 @@ layout: intro
 ---
 layout: image-left
 class: align-text-bottom
-image: ../images/whatdog.png
+image: /images/whatdog.png
 ---
 
 # What is E2E Testing?🤔
@@ -176,7 +176,7 @@ h1 {
 </style>
 ---
 layout: image-right
-image: ../images/good-e2e.jpg
+image: /images/good-e2e.jpg
 ---
 
 # The benefit of E2E tests ✔
@@ -189,7 +189,7 @@ image: ../images/good-e2e.jpg
 
 ---
 layout: image-right
-image: ../images/bad-e2e.jpg
+image: /images/bad-e2e.jpg
 ---
 
 # The cost of E2E tests 💰
@@ -412,7 +412,7 @@ Login User with Password
 
 <style>
 .footnotes-sep {
-  @apply mt-10 opacity-10;
+  @apply mt-1 opacity-10;
 }
 .footnotes {
   @apply text-sm opacity-75;
@@ -568,15 +568,16 @@ const usernameField = new TextField('.username-field')
 
 # Demo Time 😳
 
-- ## Install NodeJS 12/14+
-- ## Either:
-  - ### Clone GITHUB
-  - ### Go to project directory
-  - ### npm install
-- ## Or (if the repo can't be cloned):
-  - ### Run `npm init` in empty folder and press enter forever
-  - ### Run `npm install --save-dev cypress`
-- ## Finally:
-  - ### Run `npx cypress open`
-  - ### Run sample tests to verify everything works
+- ### Install NodeJS 12/14+
+- ### Either:
+  - #### Clone repo at https://github.com/TobiasBester/e2e-testing
+    - `git clone https://github.com/TobiasBester/e2e-testing.git`
+  - #### Go to project directory
+  - #### npm install
+- ### Or (if the repo can't be cloned):
+  - #### Run `npm init` in empty folder and press enter forever
+  - #### Run `npm install --save-dev cypress`
+- ### Finally:
+  - #### Run `npx cypress open`
+  - #### Run sample tests to verify everything works
 - [Cypress Installation Guide](https://docs.cypress.io/guides/getting-started/installing-cypress)
