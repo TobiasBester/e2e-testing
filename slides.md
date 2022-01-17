@@ -73,7 +73,7 @@ layout: intro
 ---
 layout: image-left
 class: align-text-bottom
-image: /images/whatdog.png
+image: /whatdog.png
 ---
 
 # What is E2E Testing?🤔
@@ -105,7 +105,7 @@ h1 {
 # _End-to-end_
 
 <div class="text-center">  
-<img src="/images/testpyramid.png" width="350" alt="Testing Pyramid" />
+<img src="/public/testpyramid.png" width="350" alt="Testing Pyramid" />
 </div>
 <br />
 
@@ -176,7 +176,7 @@ h1 {
 </style>
 ---
 layout: image-right
-image: /images/good-e2e.jpg
+image: /good-e2e.jpg
 ---
 
 # The benefit of E2E tests ✔
@@ -189,7 +189,7 @@ image: /images/good-e2e.jpg
 
 ---
 layout: image-right
-image: /images/bad-e2e.jpg
+image: /bad-e2e.jpg
 ---
 
 # The cost of E2E tests 💰
@@ -379,7 +379,7 @@ Login User with Password
 # General Workflow of a Test
 
 <div class="text-center">
-    <img src="/images/test-workflow.png"
+    <img src="/public/test-workflow.png"
         alt="Test Workflow"
         width="700"
     />
